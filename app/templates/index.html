@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>DevSecOps Pipeline</title>
+
+<style>
+
+body{
+    background:#0f172a;
+    color:white;
+    font-family:Arial;
+    padding:40px;
+}
+
+.box{
+    background:#1e293b;
+    padding:30px;
+    border-radius:10px;
+}
+
+h1{
+    color:#38bdf8;
+}
+
+li{
+    margin:10px 0;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="box">
+
+<h1>Secure DevSecOps CI/CD Pipeline</h1>
+
+<h2>Integrated Security Tools</h2>
+
+<ul>
+{% for tool in tools %}
+<li>{{ tool }}</li>
+{% endfor %}
+</ul>
+
+<h2>Status</h2>
+
+<p>Pipeline Active</p>
+<p>Security Enabled</p>
+<p>Production Ready</p>
+
+</div>
+
+</body>
+</html>
