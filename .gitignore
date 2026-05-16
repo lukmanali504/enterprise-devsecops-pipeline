@@ -4,3 +4,4 @@ __pycache__/
 vault.txt
 terraform.tfstate
 terraform.tfstate.backup
+actions-runner/
