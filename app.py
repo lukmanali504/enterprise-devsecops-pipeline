@@ -2,6 +2,8 @@ from flask import Flask
 
 app = Flask(__name__)
 
+DB_PASSWORD = "ProdDatabasePassword@123"
+
 @app.route('/')
 def home():
     return "Enterprise DevSecOps Pipeline Running Successfully"
