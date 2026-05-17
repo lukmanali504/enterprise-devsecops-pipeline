@@ -61,6 +61,8 @@ jobs:
         -v ${{ github.workspace }}:/path \
         zricethezav/gitleaks:latest detect \
         --source="/path"
+        --verbose \
+        --redact
 
     # =====================================================
     # CREATE SECURE TERRAFORM FILE
