@@ -60,7 +60,7 @@ jobs:
         docker run --rm \
         -v ${{ github.workspace }}:/path \
         zricethezav/gitleaks:latest detect \
-        --source="/path"
+        --source="/path" \
         --verbose \
         --redact
 
